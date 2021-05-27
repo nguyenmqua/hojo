@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:rgb(247, 232, 232);
+}
+
+.label{
+  color:  rgb(20, 62, 177);
+  text-align: center;
+}
+
+.contactme{
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  rgb(20, 62, 177);
+  font-display: swap;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  margin-bottom: 20px;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  border: 1px solid orangered;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.time{
+  color:  rgb(42, 101, 156);
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  font-size: 15px;
+  text-align: center;
+}
+h1{
+  color:  rgb(42, 101, 156);
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  font-size: 18px;
+  border-bottom: orangered 1px solid;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.navbar{
+  border-bottom: orangered 1px solid;
+  background-color: white;
+}
+
+.footer{
+  border-top: orangered 1px solid;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: orangered;
+  background-color: white;
+}
